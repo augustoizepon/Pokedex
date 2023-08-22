@@ -28,12 +28,10 @@
     flex-direction: row;
 }
 
-
 .pokemon .pre-info p {
     text-align: center;
     color: white;
     -webkit-text-stroke-width: 0.3px;
-    /* largura da borda */
     -webkit-text-stroke-color: #000;
     font-size: 50px;
     text-shadow: 0 10px 29px rgba(0, 0, 0, 0.768);
@@ -51,15 +49,14 @@
     z-index: 5;
 }
 
-
-.pokemon:hover {
+.pokemon:active {
     box-shadow: none;
     text-shadow: none;
     height: 300px;
     z-index: 3;
 }
 
-.pokemon:hover .name {
+.pokemon:active .name {
     position: absolute;
     top: 10px;
     left: 20px;
@@ -71,13 +68,13 @@
     top: 40px;
 }
 
-.pokemon:hover .pre-info .id {
+.pokemon:active .pre-info .id {
     top: 100px;
     right: 15px;
     color: #000;
 }
 
-.pokemon:hover img {
+.pokemon:active img {
     width: 150px;
     max-height: 150px;
     position: absolute;
@@ -107,7 +104,7 @@
     left: -15px;
 }
 
-.pokemon:hover .infos {
+.pokemon:active .infos {
     display: flex;
 }
 
@@ -126,8 +123,9 @@
     overflow-x: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.334);
 }
+
 .abilities::-webkit-scrollbar { 
-	display: none;
+    display: none;
 }
 
 .abilities-text {
@@ -140,7 +138,7 @@
     margin: 0;
 }
 
-.body-infos{
+.body-infos {
     display: flex;
     flex-direction: row;
     font-size: 30px;
