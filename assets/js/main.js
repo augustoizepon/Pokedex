@@ -1,5 +1,5 @@
 
-const url = `https://pokeapi.co/api/v2/pokemon?offset=0&limit=648`;
+const url = `https://pokeapi.co/api/v2/pokemon?offset=0&limit=150`;
 const content = document.querySelector(".content");
 const olElement = document.querySelector(".pokemons");
 
