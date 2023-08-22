@@ -1,6 +1,5 @@
-const btnNext = document.querySelector(".right");
-const btnBefore = document.querySelector(".left");
-const url = `https://pokeapi.co/api/v2/pokemon?offset=${0}&limit=21`;
+
+const url = `https://pokeapi.co/api/v2/pokemon?offset=0&limit=648`;
 const content = document.querySelector(".content");
 const olElement = document.querySelector(".pokemons");
 

@@ -44,7 +44,6 @@ body{
     background-color: #ffffffdb;
     border-radius: 10px;
     max-width: 1000px;
-    max-height: 1000px;
     backdrop-filter: blur(10px);
     overflow: hidden;
 }
@@ -85,5 +84,6 @@ button{
     justify-content: space-between;
     position: fixed;
     bottom: 40px;
+    display: none;
 }
 
