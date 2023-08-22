@@ -15,6 +15,7 @@
     height: 60px;
     box-shadow: 0 10px 29px rgba(0, 0, 0, 0.416) inset;
     cursor: pointer;
+    outline: none;
 }
 
 .pokemon,
@@ -49,14 +50,14 @@
     z-index: 5;
 }
 
-.pokemon:active {
+.pokemon:focus {
     box-shadow: none;
     text-shadow: none;
     height: 300px;
     z-index: 3;
 }
 
-.pokemon:active .name {
+.pokemon:focus .name {
     position: absolute;
     top: 10px;
     left: 20px;
@@ -68,13 +69,13 @@
     top: 40px;
 }
 
-.pokemon:active .pre-info .id {
+.pokemon:focus .pre-info .id {
     top: 100px;
     right: 15px;
     color: #000;
 }
 
-.pokemon:active img {
+.pokemon:focus img {
     width: 150px;
     max-height: 150px;
     position: absolute;
@@ -104,7 +105,7 @@
     left: -15px;
 }
 
-.pokemon:active .infos {
+.pokemon:focus .infos {
     display: flex;
 }
 
