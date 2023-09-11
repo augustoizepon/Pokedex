@@ -5,6 +5,12 @@ Este é um projeto de uma Pokedex web que permite aos usuários visualizar infor
 - [Link para o site da Pokedex](https://augustoizepon.github.io/Pokedex/)
 - [Link para Video do Youtube](https://www.youtube.com/watch?v=OQ_xw-zSwYo&t=48s)
 
+  <div align="center">
+ 
+  <img height="250em" src="https://i.imgur.com/ZWUGJHb.png"/>
+  
+</div>
+
 ## Funcionalidades
 
 - Lista os primeiros 151 Pokémon com suas informações básicas.
