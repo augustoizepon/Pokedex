@@ -2,6 +2,9 @@
 
 Este é um projeto de uma Pokedex web que permite aos usuários visualizar informações sobre os primeiros 151 Pokémon. A Pokedex exibe detalhes como o nome, número, tipos, habilidades, altura, peso e uma imagem do Pokémon. O aplicativo também utiliza cores diferentes para representar os tipos de Pokémon.
 
+- [Link para o site da Pokedex](https://augustoizepon.github.io/Pokedex/)
+- [Link para Video do Youtube](https://www.youtube.com/watch?v=OQ_xw-zSwYo&t=48s)
+
 ## Funcionalidades
 
 - Lista os primeiros 151 Pokémon com suas informações básicas.
